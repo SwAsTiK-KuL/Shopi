@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomeScreen from './Pages/HomeScreen'; 
 import MyOrder from './Pages/MyOrderPage';
 import MyAccount from './Pages/MyAccount';
-import MyOrderPopup from './Pages/MyOrderPopup';
+import MyOrderPopup from './Pages/MyOrderPopUp';
 import MyOrderScreen from "./Pages/MyOrder";
 
 function App() {
