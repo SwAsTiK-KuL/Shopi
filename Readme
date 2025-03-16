@@ -1,0 +1,58 @@
+# Shopi Web Application  
+
+
+Shopi is an e-commerce web application that allows users to browse products, add items to the cart, and manage their orders. It provides a seamless shopping experience with an intuitive user interface and smooth navigation.  
+
+
+- Product catalog with categories  
+- Add to cart functionality  
+- View and manage cart items  
+- Checkout and order management  
+- User authentication (if implemented)  
+- Responsive and user-friendly UI  
+
+
+- **Frontend:** React, Tailwind CSS  
+- **Icons:** Heroicons  
+- **Routing:** React Router  
+
+## Installation  
+
+1. Clone the repository:  
+   git clone https://github.com/your-username/shopi.git  
+2. Navigate to the project directory:  
+   cd shopi  
+3. Install dependencies:  
+   npm install  
+4. Start the development server:  
+   npm run dev  
+   
+
+/shopi
+ ├── src
+ │   ├── components
+ │   │   ├── Navbar.jsx
+ │   │   ├── MyOrderPopUp.jsx
+ │   │   ├── ProductCard.jsx
+ │   ├── pages
+ │   │   ├── Home.jsx
+ │   │   ├── MyOrder.jsx
+ │   ├── assets
+ │   ├── App.js
+ │   ├── index.js
+ ├── public
+ ├── package.json
+ ├── README.md
+```  
+
+
+1. Browse products on the homepage.  
+2. Click on a product to view details.  
+3. Add products to the cart.  
+4. View the cart and proceed to checkout.  
+5. Manage and view past orders.  
+
+
+
+
+
