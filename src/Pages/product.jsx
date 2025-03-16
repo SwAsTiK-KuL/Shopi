@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { PlusIcon, CheckIcon } from "@heroicons/react/24/solid";
-import MyOrderPopup from "./MyOrderPopup";
+import MyOrderPopup from "./MyOrderPopUp";
 
 function ProductsList({ products, selectedCategory, searchQuery, loading, error }) {
   const [filteredProducts, setFilteredProducts] = useState(products);
@@ -8,7 +8,6 @@ function ProductsList({ products, selectedCategory, searchQuery, loading, error 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   useEffect(() => {
-    // Filter products based on category and search query
     let filtered = products;
 
     if (selectedCategory !== "All") {
@@ -86,7 +85,6 @@ function ProductsList({ products, selectedCategory, searchQuery, loading, error 
         )}
       </div>
 
-      {/* My Order Popup */}
       <MyOrderPopup
         cart={cart}
         setCart={setCart}

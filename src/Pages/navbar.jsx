@@ -1,6 +1,6 @@
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 import { useState } from "react";
-import MyOrderPopup from "./MyOrderPopup";
+import MyOrderPopup from "./MyOrderPopUp";
 
 function Navbar({ setSelectedCategory }) {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
